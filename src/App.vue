@@ -2,6 +2,10 @@
   <v-app>
     <v-toolbar app>
       <v-toolbar-title v-text="title"></v-toolbar-title>
+      <v-spacer></v-spacer>
+      <v-btn depressed href="https://github.com/katsunory/px-vw-calculator" target="_blank">
+        <v-icon>fab fa-github</v-icon>
+      </v-btn>
     </v-toolbar>
     <v-content>
       <v-container grid-list-md>
