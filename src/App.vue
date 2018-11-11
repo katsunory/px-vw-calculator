@@ -27,7 +27,7 @@
         </v-layout>
         <v-layout>
           <v-flex>
-            <v-textarea label="フォントサイズが画面幅に応じて拡縮します" value="test" :style="{fontSize: `${calcVw}vw`}"></v-textarea>
+            <v-textarea label="FontSize scales with window size.（フォントサイズが画面幅に応じて拡縮します）" value="Hello world." :style="{fontSize: `${calcVw}vw`}"></v-textarea>
           </v-flex>
         </v-layout>
       </v-container>
